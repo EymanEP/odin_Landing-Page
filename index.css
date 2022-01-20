@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap');
+
+* {
+    font-family: 'Roboto', 'Trebuchet MS';
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1f2937;
+    height: fit-content;
+    color: #f9faf8
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: flex-start;
+}
+
+.logo,
+.links {
+    margin: 10px 30px 5px;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.links a {
+    margin: 5px;
+    text-decoration: none;
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.web-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-text {
+    flex: 1;
+    padding: 50px;
+}
+
+.header-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.header-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-image {
+    flex: 1;
+}
