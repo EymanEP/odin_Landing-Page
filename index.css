@@ -1,8 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap');
-
 * {
-    font-family: 'Roboto', 'Trebuchet MS';
+    font-family: Arial, 'Trebuchet MS';
     margin: 0;
     padding: 0;
 }
@@ -19,12 +16,12 @@ nav {
     justify-content: space-between;
     padding: 10px;
     align-items: flex-start;
+    text-align: center;
 }
 
+/*The navbar links*/
 .logo,
-.links {
-    margin: 10px 30px 5px;
-}
+.links {}
 
 .logo {
     color: #f9faf8;
@@ -38,6 +35,7 @@ nav {
     font-size: 18px;
 }
 
+/*Header Content*/
 .web-header {
     display: flex;
     flex-direction: row;
@@ -62,4 +60,52 @@ nav {
 
 .header-image {
     flex: 1;
+    background-color: grey;
+    ;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    margin: 10%;
+    text-align: center;
+}
+
+button {
+    border-radius: 10px;
+    background-color: #3882f6;
+    border-color: #3882f6;
+    font-size: 15px;
+    font-weight: 900;
+    color: #E5E7EB;
+    padding: 1px 3%;
+    margin-top: 20px;
+}
+
+/*The second part of the page*/
+/*Images configuration*/
+.image {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+
+spacer h1 {
+    font: 36px bold #1f2937;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/*Photo Grid*/
+.illustrations {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    gap: 48px;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.illustration-child {
+    flex: 1;
+    text-align: center;
 }
