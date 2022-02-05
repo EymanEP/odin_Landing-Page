@@ -1,2 +1,2 @@
 # odin_Landing-Page
-Project from the website theodinproject.com
+CSS flex project from the website theodinproject.com
