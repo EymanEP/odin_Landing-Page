@@ -6,6 +6,11 @@
     padding: 0;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 header {
     background-color: #1f2937;
     height: fit-content;
@@ -42,6 +47,7 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .header-text {
@@ -66,18 +72,11 @@ nav {
     padding-bottom: 150px;
     margin: 10%;
     text-align: center;
-    min-height: 50px;
-    min-width: 550px;
 }
 
 /*Make the flex responsive*/
-@media (max-width: 0px) {
-    .web-header {
-        flex-direction: column;
-    }
-}
 
-button {
+.header-button {
     border-radius: 10px;
     background-color: #3882f6;
     border: none;
@@ -98,6 +97,7 @@ button:hover {
 /*Images configuration*/
 .spacer2 {
     height: 60vh;
+    height: fit-content;
 }
 
 .image {
@@ -121,6 +121,7 @@ button:hover {
     display: flex;
     justify-content: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .image-description {
@@ -137,9 +138,10 @@ button:hover {
 /*Third Spacer*/
 .spacer3 {
     background-color: #E5E7EB;
-    height: 40vh;
+    height: 50vh;
     display: flex;
     align-items: center;
+    height: fit-content 40vh;
 }
 
 .spacer3 .quote {
@@ -149,8 +151,10 @@ button:hover {
     color: #1F2937;
     font-family: 'Roboto';
     flex: 1;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .quote span {
@@ -167,5 +171,40 @@ button:hover {
 /*Forth spacer*/
 .spacer4 {
     height: 20vh;
+}
+
+.spacer4-text {
     display: flex;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 3vh;
+    color: white;
+    gap: 10px;
+    margin-top: 10vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.text {
+    margin-left: 20px;
+}
+
+.text span {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.spacer4-button {
+    border: 2px white solid;
+    border-radius: 10px;
+    background-color: #3882f6;
+    font-weight: bold;
+    color: #E5E7EB;
+    padding: 2px;
+    height: 30px;
+    width: 100px;
+    max-width: 200px;
+    margin-top: 2vh;
 }
