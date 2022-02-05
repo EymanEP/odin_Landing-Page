@@ -208,3 +208,11 @@ button:hover {
     max-width: 200px;
     margin-top: 2vh;
 }
+
+.spacer5 {
+    height: 10vh;
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding-top: 1%;
+}
